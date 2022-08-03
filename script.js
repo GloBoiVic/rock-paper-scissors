@@ -7,7 +7,6 @@ function getComputerChoice() {
 
 //Runs the game
 function game() {
-  let roundsPlayed = 0
   let playerScore = 0
   let computerScore = 0
   let rpsChamp = ""
@@ -19,8 +18,8 @@ function game() {
       "Choose Your Weapon",
       "Rock, Paper, Scissors"
     ).toLowerCase()
-    //console.log(playerSelection)
-    // console.log(computerSelection)
+    console.log("You chose " + playerSelection)
+    console.log("The Computer chose " + computerSelection)
     console.log(playRound(playerSelection, computerSelection))
     console.log("Player Win Totals " + playerScore)
     console.log("Computer Win Totals " + computerScore)
