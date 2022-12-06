@@ -1,10 +1,12 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: black;
   background-image: url(rps-img.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  filter: drop-shadow(6px 6px 8px black);
   font-size: 2rem;
   display: flex;
   justify-content: center;
